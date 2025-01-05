@@ -29,11 +29,7 @@
   "files": [
     "README.md",
     "package.json",
-    "lib",
-    "!lib/**/*.test.js",
-    "!lib/**/__tests__/**",
-    "!lib/**/__mocks__/**"
-  ],
+    "lib"  ],
   "keywords": [
     "eslint",
     "typescript",
