@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-carlos-rules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一个教你如何创建自定义 ESLint 规则的指南项目，包含了从基础到进阶的完整教程",
   "main": "lib/index.js",
   "engines": {
