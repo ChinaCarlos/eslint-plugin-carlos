@@ -1,5 +1,5 @@
 {
-  "name": "@carlos/eslint-plugin-carlos",
+  "name": "@carlos/eslint-plugin-custom",
   "version": "1.0.0",
   "description": "一个教你如何创建自定义 ESLint 规则的指南项目，包含了从基础到进阶的完整教程",
   "main": "lib/index.js",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChinaCarlos/eslint-plugin-guide.git"
+    "url": "https://github.com/ChinaCarlos/eslint-plugin-carlos"
   },
-  "homepage": "https://github.com/ChinaCarlos/eslint-plugin-guide#readme",
+  "homepage": "https://github.com/ChinaCarlos/eslint-plugin-carlos#readme",
   "bugs": {
-    "url": "https://github.com/ChinaCarlos/eslint-plugin-guide/issues"
+    "url": "https://github.com/ChinaCarlos/eslint-plugin-carlos/issues"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
