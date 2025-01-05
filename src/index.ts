@@ -11,7 +11,7 @@ export = {
     recommended: {
       plugins: ["carlos-rules"],
       rules: {
-        "carlos-rules/max-params-plus": ["error", { maxParams: 3 }],
+        "carlos-rules/max-params-plus": ["warn", { maxParams: 3 }],
       },
     },
     // 所有规则

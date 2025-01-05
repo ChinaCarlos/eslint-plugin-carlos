@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-carlos-rules",
-  "version": "1.0.2",
-  "description": "一个教你如何创建自定义 ESLint 规则的指南项目，包含了从基础到进阶的完整教程",
+  "version": "1.0.3",
+  "description": "ESLint 插件：通过限制函数参数数量并推荐使用对象参数模式来提高代码质量。包含了自定义规则 max-params-plus，支持函数声明、箭头函数、类方法等多种场景的检查。",
   "main": "lib/index.js",
   "engines": {
     "node": ">=18.0.0",
@@ -25,9 +25,8 @@
     "format": "pnpm prettier --write",
     "format:check": "pnpm prettier --check",
     "test": "jest",
-    "build": "rimraf lib && tsc",
-    "dev": "tsc --watch",
-    "publish": "pnpm run clean && pnpm run build"
+    "build": "npm run test && rimraf lib && tsc",
+    "dev": "tsc --watch"
   },
   "files": [
     "README.md",
