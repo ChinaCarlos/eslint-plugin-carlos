@@ -27,7 +27,7 @@ const rule: Rule.RuleModule = {
             minimum: DEFAULT_MAX_PARAMS,
           },
         },
-        additionalProperties: false,
+        additionalProperties: true,
       },
     ],
     messages: {

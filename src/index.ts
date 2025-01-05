@@ -11,14 +11,14 @@ export = {
     recommended: {
       plugins: ["carlos-rules"],
       rules: {
-        "carlos-rules/max-params-plus": ["error", { max: 3 }],
+        "carlos-rules/max-params-plus": ["error", { maxParams: 3 }],
       },
     },
     // 所有规则
     all: {
       plugins: ["carlos-rules"],
       rules: {
-        "carlos-rules/max-params-plus": ["error", { max: 3 }],
+        "carlos-rules/max-params-plus": ["error", { maxParams: 3 }],
       },
     },
   },
