@@ -1,24 +1,24 @@
-import enforceObjectParams from "./rules/max-params-plus";
+import maxParamsPlus from "./rules/max-params-plus";
 
 export = {
+  // 所有规则配置
   rules: {
-    "enforce-object-params": enforceObjectParams,
+    "max-params-plus": maxParamsPlus,
   },
+  // 预设配置
   configs: {
     // 推荐配置
     recommended: {
-      plugins: ["@carlos/eslint-plugin-guide"],
+      plugins: ["carlos-rules"],
       rules: {
-        "@carlos/eslint-plugin-guide/enforce-object-params": "warn",
+        "carlos-rules/max-params-plus": ["error", { max: 3 }],
       },
     },
     // 所有规则
     all: {
-      plugins: ["@carlos/eslint-plugin-guide"],
+      plugins: ["carlos-rules"],
       rules: {
-        "@carlos/eslint-plugin-guide/enforce-object-params": "warn",
-        "@carlos/eslint-plugin-guide/no-function-apply": "error",
-        "@carlos/eslint-plugin-guide/no-jsx-button": "warn",
+        "carlos-rules/max-params-plus": ["error", { max: 3 }],
       },
     },
   },
