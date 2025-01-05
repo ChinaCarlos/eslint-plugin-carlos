@@ -1,0 +1,14 @@
+# 构建输出
+lib/
+dist/
+build/
+
+# 测试覆盖率报告
+coverage/
+
+# 测试快照
+**/__tests__/**/*.snap
+**/__snapshots__/**
+
+# 依赖
+node_modules/ 

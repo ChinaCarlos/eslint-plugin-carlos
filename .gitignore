@@ -1,0 +1,60 @@
+# 依赖目录
+node_modules/
+
+# 构建输出
+lib/
+dist/
+build/
+
+# 测试覆盖率报告
+coverage/
+
+# 测试快照
+**/__tests__/**/*.snap
+**/__snapshots__/**
+
+# IDE 和编辑器
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# 临时文件
+*.swp
+*.swo
+.tmp/
+temp/
+
+# Jest
+jest.config.js.snap
+__snapshots__/
+
+# npm/yarn 锁文件（根据你的项目需要选择保留哪个）
+package-lock.json
+yarn.lock
+
+# 本地配置文件
+.npmrc
+.yarnrc
+.pnpmrc
